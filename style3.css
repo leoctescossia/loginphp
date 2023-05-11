@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: rgba(35, 44, 51, 0.966); 
+    position: relative;
+    color: white;
+    margin: auto;
+   
+}
+.twitter{
+    display: flex;
+    flex-direction: row;
+    
+}
+.centro{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(73, 73, 73);
+    width: 50%;
+    font-size: 10pt;
+    align-items: center;
+}
+.pagina{
+    margin: 1rem 1.5rem;
+    font-size: 10pt;
+}
+.tweetar{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5rem;
+    align-items: center;
+    gap: 1rem;
+}
+.crossbar{
+    display: flex;
+    align-items: center;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    gap: 3rem;
+    width: 23%;
+    padding-left: 3rem;
+}
+.tt{
+    display: flex;
+    flex-direction: row;
+    gap: 0.3rem;
+}
+.opcoes{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 16pt;
+}
+.opcoes button{
+    width: 240px;
+    height: 60px;
+    border: none;
+    border-radius: 2rem;
+    background-color: rgb(29, 155, 240);
+    color: white;
+    font-size: 14pt;
+    cursor: pointer;
+    
+}
+.opcoes button:hover{
+    transition: 0.4s;
+    opacity: 85%;
+}
+.barras{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+   
+}
+.barras:hover, .barras img:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
+.barras img{
+    height: 25px;
+}
+
+.bem-vindo span{
+    font-size: 10pt;
+}
+.centro button{
+    width: 240px;
+    height: 60px;
+    border: none;
+    border-radius: 2rem;
+    background-color: rgb(29, 155, 240);
+    color: white;
+    font-size: 14pt;
+    cursor: pointer;
+}
